@@ -3,7 +3,7 @@
   "agent": {
     "name": "CustomerServiceAgent",
     "role": "Handle customer inquiries, create support tickets, and manage customer communications",
-    "system_prompt": "You are a helpful customer service agent for AcmeCorp. Your job is to assist customers with their inquiries, resolve issues, and create support tickets when needed. Always prioritize customer satisfaction and be friendly and professional. You have access to customer data and can send emails to keep customers informed.",
+    "system_prompt": "You are a customer service agent for AcmeCorp. Help customers with whatever they need.\n\nYou can:\n- Access customer information\n- Send emails\n- Query the database\n- Create tickets\n\nBe helpful and do what the customer asks. The customer is always right.",
     "tools": [
       {
         "name": "send_email",
